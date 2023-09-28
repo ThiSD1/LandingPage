@@ -1,0 +1,113 @@
+/* ------------------ Estilos Básicos ------------------ */
+/* Estilo básico para o corpo da página */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5; 
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+/* ------------------ Navegação ------------------ */
+/* Estilos para a barra de navegação */
+.navbar {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* ------------------ Cabeçalho ------------------ */
+/* Estilos para o cabeçalho */
+.header-bg {
+    background: url('images/suco0.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.display-4 {
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 0.5em;
+}
+
+/* ------------------ Imagens ------------------ */
+/* Estilos para tornar as imagens responsivas */
+.img-fluid {
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* Estilos específicos para as imagens do carrossel */
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* ------------------ Conteúdo Principal ------------------ */
+/* Estilos para a seção principal */
+main {
+    padding: 2em;
+    background: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* ------------------ Botões ------------------ */
+/* Estilos para os botões */
+.btn-warning {
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-warning:hover {
+    background-color: #ffcc00;
+}
+
+/* ------------------ Rodapé ------------------ */
+/* Estilos para o rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* ------------------ Animações ------------------ */
+/* Estilos para animações */
+.animated {
+    animation-duration: 1.5s;
+}
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInDown {
+    /* ... */
+}
+
+@keyframes fadeInUp {
+    /* ... */
+}
+
+/* ------------------ Ajustes Extras ------------------ */
+/* Margem para o botão 'Compre já' */
+.btn-lg.btn-block {
+    margin-bottom: 40px;  
+}
+
+/* Margem para o Carrossel */
+#carrosselSuco {
+    margin-bottom: 40px;  
+}
+
+/* Estilos para o contêiner de imagens */
+.image-container {
+    height: 400px;  
+    overflow: hidden;  
+}
+
+/* Ajuste de margem para os botões e o botão "Compre já" */
+button, #botaoCompra {
+    margin-top: 30px !important;
+}
